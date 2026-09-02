@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuevo mensaje de contacto</title>
+</head>
+<body style="margin:0; padding:0; background-color:#eef3f9; font-family:Arial, Helvetica, sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#eef3f9; padding:24px 0;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 1px 4px rgba(11,61,145,0.15);">
+
+        <!-- Encabezado -->
+        <tr>
+          <td style="background-color:#0B3D91; padding:24px 32px;" align="center">
+            <img src="cid:logo" width="200" alt="VACRC" style="display:block; max-width:200px; height:auto; border:0;">
+          </td>
+        </tr>
+
+        <!-- Franja de acento -->
+        <tr>
+          <td style="background-color:#1E88E5; height:4px; font-size:0; line-height:0;">&nbsp;</td>
+        </tr>
+
+        <!-- Título -->
+        <tr>
+          <td style="padding:32px 32px 8px 32px;">
+            <h1 style="margin:0; color:#0B3D91; font-size:20px; font-family:Arial, Helvetica, sans-serif;">
+              Nuevo mensaje de contacto
+            </h1>
+            <p style="margin:8px 0 0 0; color:#5b6b7f; font-size:14px; font-family:Arial, Helvetica, sans-serif;">
+              Se ha recibido una nueva solicitud desde el sitio web.
+            </p>
+          </td>
+        </tr>
+
+        <!-- Datos del contacto -->
+        <tr>
+          <td style="padding:16px 32px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+              <tr>
+                <td style="padding:12px 16px; background-color:#f4f8fd; border-left:4px solid #1E88E5; font-family:Arial, Helvetica, sans-serif;">
+                  <span style="display:block; color:#0B3D91; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:0.03em;">Nombre</span>
+                  <span style="display:block; color:#22344a; font-size:15px; margin-top:2px;">{{ nombre }}</span>
+                </td>
+              </tr>
+              <tr><td style="height:12px; font-size:0; line-height:0;">&nbsp;</td></tr>
+              <tr>
+                <td style="padding:12px 16px; background-color:#f4f8fd; border-left:4px solid #1E88E5; font-family:Arial, Helvetica, sans-serif;">
+                  <span style="display:block; color:#0B3D91; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:0.03em;">Teléfono</span>
+                  <span style="display:block; color:#22344a; font-size:15px; margin-top:2px;">{{ telefono }}</span>
+                </td>
+              </tr>
+              <tr><td style="height:12px; font-size:0; line-height:0;">&nbsp;</td></tr>
+              <tr>
+                <td style="padding:12px 16px; background-color:#f4f8fd; border-left:4px solid #1E88E5; font-family:Arial, Helvetica, sans-serif;">
+                  <span style="display:block; color:#0B3D91; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:0.03em;">Servicio de interés</span>
+                  <span style="display:block; color:#22344a; font-size:15px; margin-top:2px;">{{ servicio }}</span>
+                </td>
+              </tr>
+              <tr><td style="height:12px; font-size:0; line-height:0;">&nbsp;</td></tr>
+              <tr>
+                <td style="padding:12px 16px; background-color:#f4f8fd; border-left:4px solid #1E88E5; font-family:Arial, Helvetica, sans-serif;">
+                  <span style="display:block; color:#0B3D91; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:0.03em;">Mensaje</span>
+                  <span style="display:block; color:#22344a; font-size:15px; margin-top:2px; white-space:pre-line;">{{ mensaje }}</span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Pie -->
+        <tr>
+          <td style="padding:24px 32px 32px 32px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="border-top:1px solid #e3ebf5; padding-top:16px; font-family:Arial, Helvetica, sans-serif;">
+                  <p style="margin:0; color:#8fa0b5; font-size:12px;">
+                    Este mensaje fue generado automáticamente desde el formulario de contacto del sitio web de VACRC.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background-color:#0B3D91; padding:16px 32px;" align="center">
+            <p style="margin:0; color:#ffffff; font-size:12px; font-family:Arial, Helvetica, sans-serif;">
+              &copy; {{ anio }} VACRC. Todos los derechos reservados.
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
